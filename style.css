@@ -1,0 +1,62 @@
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+img {
+  width: 30%;
+}
+
+.navigations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.nav-link {
+  display: flex !important;
+  gap: 50px;
+}
+
+.profile {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-item {
+  font-size: 28px;
+  position: relative;
+}
+
+.basket::after {
+  content: "9+";
+  font-size: 5px;
+  line-height: 2.2;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  right: 0px;
+  top: 0px;
+  color: white;
+}
+
+.user::after {
+  content: "";
+  font-size: 5px;
+  line-height: 2.2;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  right: 0px;
+  top: 0px;
+  color: white;
+}
