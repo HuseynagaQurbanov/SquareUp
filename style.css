@@ -7,13 +7,7 @@ img {
   width: 30%;
 }
 
-.navigations {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  gap: 10px;
-}
+
 
 .nav-link {
   display: flex !important;
