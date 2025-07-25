@@ -3,12 +3,6 @@
   width: 1440px;
 }
 
-img {
-  width: 30%;
-}
-
-
-
 .nav-link {
   display: flex !important;
   gap: 50px;
